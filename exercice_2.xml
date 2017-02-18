@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="exercice_2.xsl"?>
+<!DOCTYPE stock [
+	<!ELEMENT livre (titre, auteur, annee, prix, quantite)>
+	<!ELEMENT titre (#PCDATA)>
+	<!ELEMENT auteur (#PCDATA)>
+	<!ELEMENT annee (#PCDATA)>
+	<!ELEMENT prix (#PCDATA)>
+	<!ELEMENT quantite (#PCDATA)>
+		<!ATTLIST livre id CDATA #REQUIRED>
+]>
+
+<stock>
+	<livre id="1">
+		<titre>Buccaners</titre>
+		<auteur>Edith wharton</auteur>
+		<annee>1870</annee>
+		<prix>54$</prix>
+		<quantite>54</quantite>
+	</livre>
+
+	<livre id="2">
+		<titre>Prode and pejudice</titre>
+		<auteur>EJane Austen</auteur>
+		<annee>1830</annee>
+		<prix>51$</prix>
+		<quantite>12</quantite>
+	</livre>
+
+	<livre id="3">
+		<titre>Bonjour jeunesse</titre>
+		<auteur>Sagan</auteur>
+		<annee>1923</annee>
+		<prix>31$</prix>
+		<quantite>2</quantite>
+	</livre>
+</stock>

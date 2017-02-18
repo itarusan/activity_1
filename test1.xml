@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="film.css" type="text/css"?>
+<!-- messages d'instructions
+<?xml-stylesheet href="tei2html.xsl" type="text/xsl"?>
+<?xml-model
+    href="tei.rng"
+    type="application/xml" 
+    schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?erreur?>
+
+-->
+<!DOCTYPE catalogue [
+	<!ELEMENT catalogue (film)>
+		<!ATTLIST film id CDATA #REQUIRED>
+		<!ATTLIST film date-sortie CDATA #IMPLIED>
+	<!ELEMENT film (titre, realisateurs, acteurs, synopsis)>
+	<!ELEMENT titre (#PCDATA)>
+	<!ELEMENT realisateurs (realisateur)>
+		<!ELEMENT realisateur (#PCDATA)>
+	<!ELEMENT acteurs (acteur)>
+		<!ELEMENT acteur (#PCDATA)>
+	<!ELEMENT nationalite EMPTY>
+		<!ATTLIST nationalite valeur CDATA #REQUIRED>
+	<!ELEMENT synopsis (#PCDATA)>
+			
+]>
+
+<catalogue>
+	<film id="1" date-sortie="2016">
+		<titre>Oui oui</titre>
+		<realisateurs>
+			<realisateur>Pompopl</realisateur>
+			<realisateur>Ron mueck </realisateur>
+		</realisateurs>
+
+		<acteurs>
+			<acteur>john waybne</acteur>
+			<acteur>pie apple</acteur>
+		</acteurs>
+
+		<synopsis>Ouiiuiuiuiuiui</synopsis>
+		<nationalite value="france" />
+
+	</film>
+
+	<film id="2" date-sortie="2015">
+		<titre>Nonon</titre>
+		<realisateurs>
+			<realisateur>Priorio</realisateur>
+			<realisateur>Ron mperelman </realisateur>
+		</realisateurs>
+
+		<acteurs>
+			<acteur>papa</acteur>
+			<acteur>pmaman</acteur>
+		</acteurs>
+
+		<synopsis>noooooooooooooooooooon</synopsis>
+		<nationalite value="babland" />
+
+	</film>
+
+</catalogue>
+
+
+
+
+  
