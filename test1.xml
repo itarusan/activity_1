@@ -25,12 +25,7 @@
 ]>
 
 <catalogue>
-	<film id="1" date-sortie="2016">
-		<titre>Oui oui</titre>
-		<realisateurs>
-			<realisateur>Pompopl</realisateur>
-			<realisateur>Ron mueck </realisateur>
-		</realisateurs>
+	
 
 		<acteurs>
 			<acteur>john waybne</acteur>
