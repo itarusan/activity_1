@@ -12,6 +12,7 @@
 
 <stock>
 	<livre id="1">
+		<!-- Ajout de commentaire-->
 		<titre>Buccaners</titre>
 		<auteur>Edith wharton</auteur>
 		<annee>1870</annee>
